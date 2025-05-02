@@ -24,7 +24,7 @@ cd frontend
 npm install
 
 # Install dependencies backend
-cd ../backend
+cd backend
 npm install
 ```
 
@@ -35,6 +35,6 @@ cd frontend
 npm run dev
 
 # Jalankan backend
-cd ../backend
+cd backend
 npm start
 ```
