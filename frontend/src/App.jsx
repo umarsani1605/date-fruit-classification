@@ -102,7 +102,7 @@ function App() {
                 </>
               ) : (
                 <div className="flex flex-col items-center w-full">
-                  <div className="w-36 aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center mb-4">
+                  <div className="w-full bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center mb-4">
                     <img src={image} alt="Preview" className="object-cover w-full h-full" />
                   </div>
                   <button
@@ -135,7 +135,7 @@ function App() {
                     <p className="text-[#D68B4F] font-medium">Kemiripan: {(prediction.score * 100).toFixed(2)}%</p>
                   </div>
                   <div className="bg-[#FFF3E8] w-full rounded-lg h-54 flex items-center justify-center">
-                    <img src={descriptionData.image} alt={descriptionData.name} className="w-full rounded-lg object-contain" />
+                    <img src={descriptionData.image} alt={descriptionData.name} className="w-full h-54 rounded-lg object-cover" />
                   </div>
                   <p className="text-start text-gray-600 text-sm">{descriptionData.description}</p>
                 </>
